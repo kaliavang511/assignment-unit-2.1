@@ -13,7 +13,7 @@ console.log(fullName);
 
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
-luckyNumber = 1;
+luckyNumber = 2;
 console.log(luckyNumber);
 
 // 5 - Create a variable `introduction` and using the variables from above,
@@ -46,7 +46,7 @@ let friendsPets = 7;
 pets += 2
 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-const allowedPets = 1
+const allowedPets = 5
 
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
@@ -90,12 +90,12 @@ if (luckyNumber == 2 && adventurous == true) {
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
 
 
-  let petStatus = [pets,friendsPets]  
+  let petStatus 
   if (pets < allowedPets) 
       {petStatus = 'I can have more pets'}
 
       else if (pets == allowedPets){
-        petStatus = ' I have enough pets'
+        petStatus = 'I have enough pets'
       }
     
   else { petStatus = 'Oh no, I have too many pets!'
@@ -112,7 +112,7 @@ if (luckyNumber == 2 && adventurous == true) {
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
 
-let mostPets = pets 
+let mostPets
 if (pets > friendsPets) {
   mostPets= pets
 
@@ -149,12 +149,11 @@ switch(luckyResult){
 console.log(luckyResult)
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
-// result = adventurous == true ? "Adventures are great" : "How about we stay home?"
-// console.log(result)
 
+let result1 = adventurous == true ? "Adventures are great!" : "How about we stay home?"
+console.log(result1)
 
-
-
+//Had to use a different var since I was getting an error for using the same one 
 
 
 
