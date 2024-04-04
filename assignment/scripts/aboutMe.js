@@ -13,7 +13,7 @@ console.log(fullName);
 
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
-luckyNumber = 73;
+luckyNumber = 1;
 console.log(luckyNumber);
 
 // 5 - Create a variable `introduction` and using the variables from above,
@@ -26,7 +26,7 @@ console.log(introduction);
 
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
-let adventurous = false;
+let adventurous = true;
 console.log(adventurous);
 
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
@@ -40,26 +40,34 @@ let pets = 3;
 console.log(pets);
 
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets = 4;
-console.log(friendsPets);
+let friendsPets = 7;
 
 // 10 - Add two pets to your `pets` variable
 pets += 2
-console.log(pets);
 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-const allowedPets = 7
+const allowedPets = 1
 
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-let result = adventurous
-if (adventurous == true ){
-  result = "Adventures are great!"
-} else {
-  result = "How about we stay home?"
-}
+// let result 
+// if (adventurous){
+//   result = "Adventures are great!"
+// } else {
+//   result = "How about we stay home?"
+// }
+// console.log(result);
+
+let result 
+
+  if (adventurous) {
+      result = "Adventures are great!";
+  } else {
+      result = "How about we stay home?";
+  }
+
 console.log(result);
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
@@ -82,7 +90,7 @@ if (luckyNumber == 2 && adventurous == true) {
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
 
 
-  let petStatus = [pets,friendsPets] 
+  let petStatus = [pets,friendsPets]  
   if (pets < allowedPets) 
       {petStatus = 'I can have more pets'}
 
@@ -90,7 +98,7 @@ if (luckyNumber == 2 && adventurous == true) {
         petStatus = ' I have enough pets'
       }
     
-  else { petStatus = 'Oh no'
+  else { petStatus = 'Oh no, I have too many pets!'
     
   }
 
@@ -109,6 +117,7 @@ if (pets > friendsPets) {
   mostPets= pets
 
 } else {
+  (pets < friendsPets)
   mostPets= friendsPets}
 
 console.log(mostPets);
@@ -125,7 +134,7 @@ console.log(mostPets);
 let luckyResult = luckyNumber
 switch(luckyResult){
   case 1:
-    luckyResult = "first the worst"
+    luckyResult = "First is the worst"
     break;
   case 2:
     luckyResult= 'Second is the best'
@@ -140,8 +149,8 @@ switch(luckyResult){
 console.log(luckyResult)
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
-let = result = adventurous == true ? "Adventures are great" : "How about we stay home?"
-console.log(result)
+// result = adventurous == true ? "Adventures are great" : "How about we stay home?"
+// console.log(result)
 
 
 
