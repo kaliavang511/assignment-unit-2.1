@@ -13,7 +13,7 @@ console.log(fullName);
 
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
-luckyNumber = 2;
+luckyNumber = 5;
 console.log(luckyNumber);
 
 // 5 - Create a variable `introduction` and using the variables from above,
@@ -21,12 +21,12 @@ console.log(luckyNumber);
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
-let introduction = 'My name is ' + fullName + ' , and I think ' + luckyNumber + '  is a winner!';
+let introduction = 'My name is ' + fullName + ', and I think ' + luckyNumber + ' is a winner!';
 console.log(introduction);
 
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
-let adventurous = true;
+let adventurous = false;
 console.log(adventurous);
 
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
@@ -36,38 +36,29 @@ console.log(adventurous);
 
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
-let pets = 3;
+let pets = 2;
 console.log(pets);
 
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets = 7;
+let friendsPets = 1;
 
 // 10 - Add two pets to your `pets` variable
 pets += 2
 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-const allowedPets = 5
+const allowedPets = 1
 
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-// let result 
-// if (adventurous){
-//   result = "Adventures are great!"
-// } else {
-//   result = "How about we stay home?"
-// }
-// console.log(result);
 
 let result 
-
   if (adventurous) {
       result = "Adventures are great!";
   } else {
       result = "How about we stay home?";
   }
-
 console.log(result);
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
@@ -89,7 +80,6 @@ if (luckyNumber == 2 && adventurous == true) {
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
 
-
   let petStatus 
   if (pets < allowedPets) 
       {petStatus = 'I can have more pets'}
@@ -102,7 +92,7 @@ if (luckyNumber == 2 && adventurous == true) {
     
   }
 
-  console.log(petStatus)
+  console.log(petStatus);
 
 // STRETCH GOALS:
 
@@ -117,8 +107,9 @@ if (pets > friendsPets) {
   mostPets= pets
 
 } else {
-  (pets < friendsPets)
-  mostPets= friendsPets}
+  // (pets < friendsPets)
+  mostPets= friendsPets
+}
 
 console.log(mostPets);
 
@@ -146,17 +137,12 @@ switch(luckyResult){
     luckyResult = 'Luck is what happens when preparation meets opportunity'
     break;
 }
-console.log(luckyResult)
+console.log(luckyResult);
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
-let result1 = adventurous == true ? "Adventures are great!" : "How about we stay home?"
-console.log(result1)
-
-//Had to use a different var since I was getting an error for using the same one 
-
-
-
+ result = adventurous == true ? "Adventures are great!" : "How about we stay home?"
+console.log(result);
 
 
 // DO NOT MODIFY
